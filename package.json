@@ -1,6 +1,19 @@
 {
   "name": "angular-material",
   "version": "0.0.0",
+  "main": "main.js",
+  "build": {
+    "appId": "app.creator",
+    "extraFiles": [
+      "ext"
+    ],
+    "files": [
+      "dist/angular-material/**/*",
+      "node_modules/**/*",
+      "package.json",
+      "main.js",
+      "preload.js"
+    ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
