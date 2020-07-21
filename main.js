@@ -6,8 +6,8 @@ let win;
 
 function createWindow(){
     win = new BrowserWindow({
-        width : 400,
-        height : 600,
+        width : 320,
+        height : 359,
         backgroundColor:'#ffffff',
         webPreferences: {
             nodeIntegration: true,
